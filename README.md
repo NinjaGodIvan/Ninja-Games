@@ -1,5 +1,7 @@
 # Ninja-Games
 
+*Note: The game is closed due to debbuging errors to ensure the recovery of all player's data. The game will reopen once data recovery is efficient*
+
 ## About
 Ninja Games is an arena battle game, where players and AIs battle in a field. There is no time limit of when the game will end. All ally and enemy AIs indefinitely respawn. 
 
@@ -16,3 +18,12 @@ Ninja Games is an arena battle game, where players and AIs battle in a field. Th
 ## Development
 **Tools:** RobloxStudios, Lua, DataStore2
 
+### Implementations
+- Lobby and battle maps, and AI models
+- Save/Load API allowing to save players' level, kills, and XP when they leave and load them when they join the server
+- Level-Up system that level ups players when they reached their target XP
+
+### Bug Fixes
+- AIs do not inflict damage to other players and AIs if their health is 0
+- AIs are able to respawn with correct durations.
+- Players no longer encounter their data loss when they join and leave the game
